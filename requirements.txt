@@ -4,7 +4,7 @@ python-dotenv
 langchain-community == 0.3.11
 langchain-text-splitters
 sentence_transformers
-langchain_huggingface
+langchain-huggingface
 faiss-cpu
 langchain_groq
 langchain-core == 0.3.24
