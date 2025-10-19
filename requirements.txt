@@ -1,11 +1,11 @@
 streamlit
-langchain
+langchain == 0.3.11
 python-dotenv
-langchain-community
+langchain-community == 0.3.11
 langchain-text-splitters
 sentence_transformers
 langchain_huggingface
 faiss-cpu
 langchain_groq
-langchain_core
+langchain_core == 0.3.24
 pypdf
