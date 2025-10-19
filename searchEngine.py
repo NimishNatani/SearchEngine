@@ -21,8 +21,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 os.environ["HF_TOKEN"]=st.secrets["Hug_Face_API_Key"]
-embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2",model_kwargs={"device": "cpu", "torch_dtype": "float32"}
-)
+embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 os.environ["TAVILY_API_KEY"] = st.secrets["TAVILY_API_KEY"]
 
 search = TavilySearchResults()
